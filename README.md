@@ -103,7 +103,7 @@ All of our JavaScript data is just stored in our JavaScript code right now. But 
 
 ```
 // Set a welcome message with my data
-var setWelcomeMessage() = function() {
+var setWelcomeMessage = function() {
   var name = getMyName();
   var birthYear = myBirthYear(prompt('What is your age?'));
   
