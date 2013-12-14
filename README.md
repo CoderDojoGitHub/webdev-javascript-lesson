@@ -77,8 +77,8 @@ Now that we have taught your script to remember your name using variables, let's
 ```
 // Return my Birth Year
 var myBirthYear = function( age ) {
-  currentYear = 2013;
-  birthYear = currentYear - age
+  var currentYear = 2013;
+  var birthYear = currentYear - age
   console.log(birthYear);
   return birthYear
 }
