@@ -1,5 +1,6 @@
 javascript-lesson
 =================
+### CodePen link: http://codepen.io/jensechu/pen/imHpc
 
 ## What is JavaScript?
 JavaScript is a programming language that your browser speaks. It is how you can add life into your websites by making the elements you put on the page interact with the person, or user, reading your page. We might use it to pop-up an alert box, do some math, or even change the text on your page without editting your HTML! 
