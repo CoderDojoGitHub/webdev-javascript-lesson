@@ -1,9 +1,9 @@
-javascript-lesson
+JavaScript Lesson
 =================
 ### CodePen link: http://codepen.io/jensechu/pen/imHpc
 
 ## What is JavaScript?
-JavaScript is a programming language that your browser speaks. It is how you can add life into your websites by making the elements you put on the page interact with the person, or user, reading your page. We might use it to pop-up an alert box, do some math, or even change the text on your page without editting your HTML! 
+JavaScript is a programming language that your browser speaks. It is how you can add life into your websites by making the elements you put on the page interact with the user, reading your page. We might use it to pop-up an alert box, do some math, or even change the text on your page without editting your HTML! 
 
 ## Using the Inspector and console.log();
 Unlike HTML and CSS where you can see what changes you make in your Codepen.IO websites, Javascript requires you to use the web inspector's console to see what is going on. The console is a way to see exactly what your JavaScript code is doing, since sometimes you can't tell if your code works or not just by looking at it like in HTML or CSS.
@@ -22,6 +22,8 @@ You should see an alert box pop up that has a place to type in your name. Go ahe
 A function is a command that will run some code every time you type it in. For example, every time you type in ``prompt("What is your name?")``, a new alert box will pop up on your website. 
 
 Functions are important because usually you want to control when certain code will run on your site. Let's try adding some code that will allow us to click on a link to run our ``prompt()`` function, instead of running our ``prompt()`` function when our page loads.
+
+Functions are just a set of instructions to return the value that you want. It is similar to how baking a cake might have a recipe to follow to always bake the same cake.
 
 * First we need to add a button to our HTML. ``<button href="#" class="round-button" onClick="prompt('What is your name?')">Click Me!</button>``
 * Now lets make the button look more like a button by adding some css.
@@ -112,4 +114,6 @@ var setWelcomeMessage() = function() {
 }
 ```
 Notice how we are using the two functions we already wrote in our JavaScript to get our ``name`` and ``birthYear`` values.
+
+Keep in mind that browsers are forgetful! They cannot remember everything you do unless we tell our code to make the browser remember. When we refresh our page, the name and birthYear you stored will be gone.
 
